@@ -21,8 +21,8 @@
       })
       $('#btnclk').click(function(){
           serialno++;
-          if(serialno <= 10){
-              if(serialno >= 10){
+          if(serialno <= 50){
+              if(serialno >= 50){
                   $("#btnclk").prop('disabled',true)
               }
               $.ajax({
